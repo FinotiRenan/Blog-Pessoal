@@ -1,0 +1,148 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+body{
+    background-color: black;
+
+}
+
+h1,h2,h3,h4,p,span{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #7fff7f;
+}
+
+.header .wrapper{
+    display: flex;
+    gap: 30px;
+}
+
+.header a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+}
+
+.curriculo-header, .contato-header, .projetos-header {
+    text-align: center;
+
+}
+.curriculo-header img, .contato-header img, .projetos-header img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 5px solid #7fff7f;
+}
+ 
+.curriculo, .contato{
+    display: grid;
+    gap: 30px;
+}
+
+.curriculo-introducao{
+    text-align: center;
+}
+
+.curriculo-introducao h1{
+    color: #7fff7f;
+    font-size: 2em;
+}
+
+.curriculo-apresentacao {
+    display: grid;
+    gap: 30px;
+}
+
+.curriculo-apresentacao h2{
+    color: #7fff7f;
+    margin-bottom: 15px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.footer svg{
+    width: 50px;
+    height: 50px;
+    fill:#7fff7f
+}
+
+.contato h1{
+    text-align: center;
+    color: #7fff7f;
+}
+
+.contato form{
+    display: grid;
+    gap: 15px;
+    justify-content: center;
+}
+
+.contato input, .contato textarea{
+    width: 500px;
+    border: 1px solid #7fff7f ;
+    border-radius: 7px;
+    padding: 6px 10px;
+    resize: none;
+    text-align: center;
+    
+}
+
+.contato button{
+    width: auto;
+    margin: auto;
+    border-radius: 50px;
+    background-color: #7fff7f;
+    color: #fff;
+    padding: 8px 15px;
+    font-size: 1em;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.projetos h1{
+    color: #7fff7f;
+    text-align: center;
+
+}
+
+.projetos-imagens{
+    width: 800px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 30px;
+    border: 7px solid #7fff7f;
+    margin: auto;
+}
+
+.projetos a{
+    text-align: center;
+    color: #fff;
+}
+
+.projetos{
+    display: grid;
+}
