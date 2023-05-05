@@ -37,15 +37,15 @@ h1,h2,h3,h4,p,span{
     padding: 30px;
 }
 
-.curriculo-header, .contato-header,.projetos-header {
-text-align: center;
+.curriculo-header, .contato-header, .projetos-header {
+    text-align: center;
 
 }
 .curriculo-header img, .contato-header img, .projetos-header img{
-border-radius: 50%;
-height: 200px;
-width: 200px;
-border: 5px solid #7fff7f;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 5px solid #7fff7f;
 }
  
 .curriculo, .contato{
@@ -58,18 +58,18 @@ border: 5px solid #7fff7f;
 }
 
 .curriculo-introducao h1{
-color: #7fff7f;
-font-size: 2em;
+    color: #7fff7f;
+    font-size: 2em;
 }
 
 .curriculo-apresentacao {
-display: grid;
-gap: 30px;
+    display: grid;
+    gap: 30px;
 }
 
 .curriculo-apresentacao h2{
-color: #7fff7f;
-margin-bottom: 15px;
+    color: #7fff7f;
+    margin-bottom: 15px;
 }
 
 
@@ -97,6 +97,7 @@ margin-bottom: 15px;
 .contato form{
     display: grid;
     gap: 15px;
+    justify-content: center;
 }
 
 .contato input, .contato textarea{
@@ -105,6 +106,8 @@ margin-bottom: 15px;
     border-radius: 7px;
     padding: 6px 10px;
     resize: none;
+    text-align: center;
+    
 }
 
 .contato button{
@@ -140,3 +143,6 @@ margin-bottom: 15px;
     color: #fff;
 }
 
+.projetos{
+    display: grid;
+}
