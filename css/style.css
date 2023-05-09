@@ -146,3 +146,16 @@ h1,h2,h3,h4,p,span{
 .projetos{
     display: grid;
 }
+
+@media screen and (max-width: 880px) {
+    .projetos-imagens{
+        width: 100%;
+    }
+  .contato input, .contato textarea {
+    width: 200px;
+  }
+
+  .header .wrapper{
+    font-size: .6em;
+  }
+}
